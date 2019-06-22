@@ -12,8 +12,8 @@ group :assets do
   gem 'uglifier', '>= 1.3.0'
 end
 
-gem 'bootstrap-sass', '~> 3.3.5'
-gem 'jquery-rails'
+gem 'bootstrap-sass', '~> 3.4.0'
+gem 'jquery-rails', '>= 4.3.4'
 gem 'turbolinks'
 gem 'twilio-ruby'
 gem 'global_phone'
