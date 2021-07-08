@@ -24,5 +24,5 @@ group :test do
   gem 'rspec-rails'
   gem 'database_cleaner'
   gem 'vcr'
-  gem 'webmock'
+  gem 'webmock', '>= 1.21.0'
 end
