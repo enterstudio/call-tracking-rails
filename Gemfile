@@ -7,7 +7,7 @@ gem 'pg'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 5.0'
+  gem 'sass-rails', '~> 5.0', '>= 5.0.4'
   gem 'coffee-rails', '~> 4.1.0'
   gem 'uglifier', '>= 1.3.0'
 end
@@ -20,7 +20,7 @@ gem 'global_phone'
 
 group :test do
   gem 'byebug'
-  gem 'factory_girl_rails', "~> 4.0"
+  gem 'factory_girl_rails', '~> 4.4', '>= 4.4.1'
   gem 'rspec-rails'
   gem 'database_cleaner'
   gem 'vcr'
