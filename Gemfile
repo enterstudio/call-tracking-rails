@@ -21,7 +21,7 @@ gem 'global_phone'
 group :test do
   gem 'byebug'
   gem 'factory_girl_rails', "~> 4.0"
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'database_cleaner'
   gem 'vcr'
   gem 'webmock'
